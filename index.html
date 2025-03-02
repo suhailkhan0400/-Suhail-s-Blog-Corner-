@@ -3,89 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suhail's Blog</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Suhail's Blog Corner</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #2f2f2f; /* Shady background */
+            color: #f4f4f4; /* Light text */
             margin: 0;
             padding: 0;
-            background-color: #2e2e2e;
-            color: #e0e0e0;
         }
-        nav {
-            background-color: #333;
-            padding: 10px 0;
+        header {
+            background-color: #333; /* Dark header */
+            color: #fff;
+            padding: 30px;
             text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
         }
-        nav a {
-            color: #e0e0e0;
-            padding: 10px 20px;
-            text-decoration: none;
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            margin: 10px 0 0;
             font-size: 18px;
         }
-        nav a:hover {
-            background-color: #575757;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
         }
         .content {
-            max-width: 900px;
-            margin: 20px auto;
+            background-color: #444; /* Darker content box */
             padding: 20px;
-            background-color: #444;
+            margin-top: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
         .content h2 {
-            color: #f1f1f1;
-            font-size: 26px;
+            color: #e6e6e6;
+            font-size: 28px;
         }
         .content p {
-            color: #d1d1d1;
-            line-height: 1.6;
-        }
-        .content .date {
-            font-size: 14px;
-            color: #999;
+            color: #ccc; /* Lighter paragraph text */
+            font-size: 18px;
         }
         footer {
+            background-color: #333;
+            color: #fff;
             text-align: center;
             padding: 20px;
-            background-color: #333;
-            color: #e0e0e0;
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        footer a {
+            color: #e6e6e6;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #ff7f50; /* Highlight color on hover */
+        }
+        a {
+            color: #e6e6e6;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ff7f50;
         }
     </style>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="#blog">Blog</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Suhail's Blog Corner</h1>
+        <p>Thoughts, stories, and experiences</p>
+    </header>
 
-    <!-- Blog Section -->
-    <div id="blog" class="content">
-        <h2>New Blog Post Title</h2>
-        <p class="date"><strong>Published on:</strong> March 5, 2025</p>
-        <p>This is the content of the new blog post. You can add more details here about the topic you're writing about. Share your thoughts and make it engaging!</p>
-    </div>
+    <!-- Main content area -->
+    <div class="container">
+        <!-- Blog Post 1 -->
+        <div class="content">
+            <h2>My First Blog Post</h2>
+            <p><strong>Published on:</strong> March 2, 2025</p>
+            <p>Welcome to my blog! This is where I'll be sharing my thoughts, experiences, and stories. Stay tuned for more updates!</p>
+        </div>
 
-    <!-- About Section -->
-    <div id="about" class="content">
-        <h2>About Me</h2>
-        <p>I'm Suhail! I'm passionate about sharing my thoughts and experiences. Welcome to my blog!</p>
-        <p>Feel free to contact me at <strong>suhailkhan0400@gmail.com</strong>.</p>
-    </div>
+        <!-- Blog Post 2 -->
+        <div class="content">
+            <h2>Exploring New Horizons</h2>
+            <p><strong>Published on:</strong> February 28, 2025</p>
+            <p>Life is all about exploring new things and pushing your boundaries. In this post, I talk about the importance of stepping out of your comfort zone...</p>
+        </div>
 
-    <!-- Contact Section -->
-    <div id="contact" class="content">
-        <h2>Contact Me</h2>
-        <p>If you'd like to get in touch, feel free to email me at <strong>suhailkhan0400@gmail.com</strong>.</p>
+        <!-- Add More Blog Posts Below -->
+        <!-- Just copy and paste the content block above for each new blog -->
+
     </div>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Suhail's Blog. All rights reserved.</p>
+        <p>&copy; 2025 Suhail's Blog Corner | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
     </footer>
 
 </body>
