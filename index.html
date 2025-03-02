@@ -9,47 +9,48 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #2e2e2e;
+            color: #e0e0e0;
         }
         nav {
             background-color: #333;
-            padding: 15px;
+            padding: 10px 0;
             text-align: center;
         }
         nav a {
-            color: white;
-            padding: 12px 20px;
+            color: #e0e0e0;
+            padding: 10px 20px;
             text-decoration: none;
             font-size: 18px;
         }
         nav a:hover {
             background-color: #575757;
-            border-radius: 5px;
         }
         .content {
             max-width: 900px;
             margin: 20px auto;
             padding: 20px;
-            background-color: white;
+            background-color: #444;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         }
         .content h2 {
-            color: #333;
-            font-size: 24px;
+            color: #f1f1f1;
+            font-size: 26px;
         }
         .content p {
-            color: #666;
+            color: #d1d1d1;
             line-height: 1.6;
         }
-        .footer {
-            background-color: #333;
-            color: white;
+        .content .date {
+            font-size: 14px;
+            color: #999;
+        }
+        footer {
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 20px;
+            background-color: #333;
+            color: #e0e0e0;
         }
     </style>
 </head>
@@ -57,17 +58,34 @@
 
     <!-- Navigation Bar -->
     <nav>
-        <a href="#about">About</a>
         <a href="#blog">Blog</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
     </nav>
+
+    <!-- Blog Section -->
+    <div id="blog" class="content">
+        <h2>New Blog Post Title</h2>
+        <p class="date"><strong>Published on:</strong> March 5, 2025</p>
+        <p>This is the content of the new blog post. You can add more details here about the topic you're writing about. Share your thoughts and make it engaging!</p>
+    </div>
 
     <!-- About Section -->
     <div id="about" class="content">
         <h2>About Me</h2>
-        <p>Hello! I'm Suhail, a freelance translator and writer. I also enjoy sketching and sharing my experiences through this blog. Welcome to my personal space where I share stories, tips, and much more!</p>
+        <p>Hello! I'm Suhail, a freelance translator, writer, and sketch artist. On this blog, I share my thoughts, experiences, and creative work. Thanks for visiting!</p>
     </div>
 
-    <!-- Blog Section -->
-    <div id="blog" class="content">
-        <h2>New Blog Po
+    <!-- Contact Section -->
+    <div id="contact" class="content">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to email me at <strong>suahil@example.com</strong>.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Suhail's Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
