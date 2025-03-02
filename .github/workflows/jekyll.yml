@@ -1,0 +1,16 @@
+---
+layout: default
+title: Home
+---
+
+<h1>⚡ Welcome to Suhail's Blog Corner</h1>
+<p>Read amazing blogs on various topics!</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
